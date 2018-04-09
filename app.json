@@ -1,6 +1,6 @@
 {
-  "name": "Start on Heroku: PHP",
-  "description": "A barebones PHP app that makes use of the Silex web framework",
-  "repository": "https://github.com/heroku/php-getting-started",
+  "name": "Stock Score Crawler",
+  "description": "Crawler de varredura de dados do site fundamentus.com.br.",
+  "repository": "https://github.com/stock-score/fundamentus",
   "addons": []
 }
