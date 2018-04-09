@@ -1,0 +1,190 @@
+[
+    {
+        "attribute": "Papel",
+        "tip": "C\u00f3digo da a\u00e7\u00e3o"
+    },
+    {
+        "attribute": "Cota\u00e7\u00e3o",
+        "tip": "Cota\u00e7\u00e3o de fechamento da a\u00e7\u00e3o no \u00faltimo preg\u00e3o"
+    },
+    {
+        "attribute": "Tipo",
+        "tip": "ON = Ordin\u00e1ria, PN = Preferencial, PNA = Pref. tipo A, etc"
+    },
+    {
+        "attribute": "Data \u00falt cot",
+        "tip": "Data do \u00faltimo preg\u00e3o em  que o ativo foi negociado"
+    },
+    {
+        "attribute": "Empresa",
+        "tip": "Nome comercial da empresa."
+    },
+    {
+        "attribute": "Min 52 sem",
+        "tip": "Menor cota\u00e7\u00e3o da a\u00e7\u00e3o nos \u00faltimos 12 meses."
+    },
+    {
+        "attribute": "Setor",
+        "tip": "Classifica\u00e7\u00e3o setorial"
+    },
+    {
+        "attribute": "Max 52 sem",
+        "tip": "Maior cota\u00e7\u00e3o da a\u00e7\u00e3o nos \u00faltimos 12 meses"
+    },
+    {
+        "attribute": "Subsetor",
+        "tip": "Classifica\u00e7\u00e3o por segmento de atua\u00e7\u00e3o."
+    },
+    {
+        "attribute": "Vol $ m\u00e9d (2m)",
+        "tip": "Volume m\u00e9dio de negocia\u00e7\u00e3o da a\u00e7\u00e3o nos \u00faltimos 2 meses (R$)"
+    },
+    {
+        "attribute": "Valor de mercado",
+        "tip": "Valor de mercado da empresa, calculado multiplicando o pre\u00e7o da a\u00e7\u00e3o pelo n\u00famero total de a\u00e7\u00f5es."
+    },
+    {
+        "attribute": "\u00dalt balan\u00e7o processado",
+        "tip": "Data do \u00faltimo balan\u00e7o divulgado pela empresa que consta no nosso banco de dados. Todos os indicadores s\u00e3o calculados considerando os \u00faltimos 12 meses finalizados na data deste balan\u00e7o."
+    },
+    {
+        "attribute": "Valor da firma",
+        "tip": "Valor da firma (Enterprise Value) \u00e9 calculado somando o valor de mercado da empresa a sua d\u00edvida l\u00edquida."
+    },
+    {
+        "attribute": "Nro. A\u00e7\u00f5es",
+        "tip": "N\u00famero total de a\u00e7\u00f5es, somadas todas as esp\u00e9cies: ON, PN, etc"
+    },
+    {
+        "attribute": "P\/L",
+        "tip": "Pre\u00e7o da a\u00e7\u00e3o dividido pelo lucro por a\u00e7\u00e3o. O P\/L \u00e9 o n\u00famero de anos que se levaria para reaver o capital aplicado na compra de uma a\u00e7\u00e3o, atrav\u00e9s do recebimento do lucro gerado pela empresa, considerando que esses lucros permane\u00e7am constantes."
+    },
+    {
+        "attribute": "LPA",
+        "tip": "Lucro por A\u00e7\u00e3o"
+    },
+    {
+        "attribute": "P\/VP",
+        "tip": "Pre\u00e7o da a\u00e7\u00e3o dividido pelo Valor Patrimonial por a\u00e7\u00e3o. Informa quanto o mercado est\u00e1 disposto a pagar sobre o Patrim\u00f4nio L\u00edquido da empresa"
+    },
+    {
+        "attribute": "VPA",
+        "tip": "Valor Patrimonial por A\u00e7\u00e3o: Valor do Patrim\u00f4nio L\u00edquido dividido pelo n\u00famero total de a\u00e7\u00f5es."
+    },
+    {
+        "attribute": "P\/EBIT",
+        "tip": "Pre\u00e7o da a\u00e7\u00e3o dividido pelo EBIT por a\u00e7\u00e3o. EBIT \u00e9 o Lucro antes dos Impostos e Despesas Financeiras. \u00c9 uma boa aproxima\u00e7\u00e3o do lucro operacional da empresa."
+    },
+    {
+        "attribute": "Marg. Bruta",
+        "tip": "Lucro Bruto dividido pela Receita L\u00edquida: Indica a porcentagem de cada R$1 de venda que sobrou ap\u00f3s o custo dos produtos\/servi\u00e7os vendidos"
+    },
+    {
+        "attribute": "PSR",
+        "tip": "Price Sales Ratio: Pre\u00e7o da a\u00e7\u00e3o dividido pela Receita L\u00edquida por a\u00e7\u00e3o"
+    },
+    {
+        "attribute": "Marg. EBIT",
+        "tip": "EBIT dividido pela Receita L\u00edquida: Indica a porcentagem de cada R$1 de venda que sobrou ap\u00f3s o pagamento dos custos dos produtos\/servi\u00e7os vendidos, das despesas com vendas, gerais e administrativas"
+    },
+    {
+        "attribute": "P\/Ativos",
+        "tip": "Pre\u00e7o da a\u00e7\u00e3o dividido pelos Ativos totais por a\u00e7\u00e3o."
+    },
+    {
+        "attribute": "Marg. L\u00edquida",
+        "tip": "Lucro L\u00edquido dividido pela Receita L\u00edquida"
+    },
+    {
+        "attribute": "P\/Cap. Giro",
+        "tip": "Pre\u00e7o da a\u00e7\u00e3o dividido pelo capital de giro por a\u00e7\u00e3o. Capital de giro \u00e9 o Ativo Circulante menos Passivo Circulante"
+    },
+    {
+        "attribute": "EBIT \/ Ativo",
+        "tip": "EBIT dividido por Ativos totais"
+    },
+    {
+        "attribute": "P\/Ativ Circ Liq",
+        "tip": "Pre\u00e7o da a\u00e7\u00e3o dividido pelos Ativos Circulantes L\u00edquidos por a\u00e7\u00e3o. Ativo Circ. L\u00edq. \u00e9 obtido subtraindo os ativos circulantes pelas d\u00edvidas de curto e longo prazo, ou seja, ap\u00f3s o pagamento de todas as d\u00edvidas, quanto sobraria dos ativos mais l\u00edquidos da empresa (caixa, estoque, etc)"
+    },
+    {
+        "attribute": "ROIC",
+        "tip": "Retorno sobre o Capital Investido: Calculado dividindo-se o EBIT por (Ativos - Fornecedores - Caixa). Informa o retorno que a empresa consegue sobre o capital total aplicado."
+    },
+    {
+        "attribute": "Div. Yield",
+        "tip": "Dividend Yield: Dividendo pago por a\u00e7\u00e3o dividido pelo pre\u00e7o da a\u00e7\u00e3o. \u00c9 o rendimento gerado para o dono da a\u00e7\u00e3o pelo pagamento de dividendos."
+    },
+    {
+        "attribute": "ROE",
+        "tip": "Retorno sobre o Patrim\u00f4nio L\u00edquido: Lucro l\u00edquido dividido pelo Patrim\u00f4nio L\u00edquido"
+    },
+    {
+        "attribute": "EV \/ EBIT",
+        "tip": "Valor da Firma (Enterprise Value dividido pelo EBIT."
+    },
+    {
+        "attribute": "Liquidez Corr",
+        "tip": "Ativo Circulante dividido pelo Passivo Circulante: Reflete a capacidade de pagamento da empresa no curto prazo."
+    },
+    {
+        "attribute": "Giro Ativos",
+        "tip": "Receita L\u00edquida dividido por Ativos Totais. Indica a efici\u00eancia com a qual a empresa usa seus ativos para gerar vendas"
+    },
+    {
+        "attribute": "Div Br\/ Patrim",
+        "tip": "D\u00edvida Bruta total (D\u00edvida+Deb\u00eantures) dividido pelo Patrim\u00f4nio L\u00edquido"
+    },
+    {
+        "attribute": "Cres. Rec (5a)",
+        "tip": "Crescimento da Receita L\u00edquida nos \u00faltimos 5 anos"
+    },
+    {
+        "attribute": "Ativo",
+        "tip": "Todos os bens, direitos e valores a receber de uma entidade"
+    },
+    {
+        "attribute": "D\u00edv. Bruta",
+        "tip": "D\u00edvida Bruta \u00e9 obtida somando-se as d\u00edvidas de curto e longo prazo mais as deb\u00eantures de curto e longo prazo."
+    },
+    {
+        "attribute": "Disponibilidades",
+        "tip": "Contas que representam bens numer\u00e1rios (Dinheiro)"
+    },
+    {
+        "attribute": "D\u00edv. L\u00edquida",
+        "tip": "D\u00edvida Bruta menos Disponibilidades. Se este valor \u00e9 negativo, significa que a empresa possui caixa l\u00edquido positivo."
+    },
+    {
+        "attribute": "Ativo Circulante",
+        "tip": "Bens ou direitos que podem ser convertido em dinheiro em curto prazo"
+    },
+    {
+        "attribute": "Patrim. L\u00edq",
+        "tip": "O patrim\u00f4nio l\u00edquido representa os valores que os s\u00f3cios ou acionistas t\u00eam na empresa em um determinado momento. No balan\u00e7o patrimonial, a diferen\u00e7a entre o valor dos ativos e dos passivos e resultado de exerc\u00edcios futuros representa o PL (Patrim\u00f4nio L\u00edquido), que \u00e9 o valor cont\u00e1bil devido pela pessoa jur\u00eddica aos s\u00f3cios ou acionistas."
+    },
+    {
+        "attribute": "Receita L\u00edquida",
+        "tip": "Receita L\u00edquida \u00e9 a soma de todas as vendas da empresa em determinado per\u00edodo deduzido de devolu\u00e7\u00f5es, descontos e alguns impostos."
+    },
+    {
+        "attribute": "Receita L\u00edquida",
+        "tip": "Receita L\u00edquida \u00e9 a soma de todas as vendas da empresa em determinado per\u00edodo deduzido de devolu\u00e7\u00f5es, descontos e alguns impostos."
+    },
+    {
+        "attribute": "EBIT",
+        "tip": "Earnings Before Interest and Taxes - Lucro antes dos impostos e juros: Uma aproxima\u00e7\u00e3o do lucro operacional da empresa."
+    },
+    {
+        "attribute": "EBIT",
+        "tip": "Earnings Before Interest and Taxes - Lucro antes dos impostos e juros: Uma aproxima\u00e7\u00e3o do lucro operacional da empresa."
+    },
+    {
+        "attribute": "Lucro L\u00edquido",
+        "tip": "O que sobra das vendas ap\u00f3s o todas as despesas."
+    },
+    {
+        "attribute": "Lucro L\u00edquido",
+        "tip": "O que sobra das vendas ap\u00f3s o todas as despesas."
+    }
+]

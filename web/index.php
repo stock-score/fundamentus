@@ -1,25 +1,12 @@
 <?php
 
-require('../vendor/autoload.php');
+define ('URL_ALL', 'http://www.fundamentus.com.br/resultado.php');
+define ('URL_STK', 'http://www.fundamentus.com.br/detalhes.php?papel=');
 
-$app = new Silex\Application();
-$app['debug'] = true;
+require ('../vendor/autoload.php');
 
-// Register the monolog logging service
-$app->register(new Silex\Provider\MonologServiceProvider(), array(
-  'monolog.logfile' => 'php://stderr',
-));
+$tickers = require ('all.php');
 
-// Register view rendering
-$app->register(new Silex\Provider\TwigServiceProvider(), array(
-    'twig.path' => __DIR__.'/views',
-));
+$stocks = require ('stocks.php');
 
-// Our web handlers
-
-$app->get('/', function() use($app) {
-  $app['monolog']->addDebug('logging output.');
-  return $app['twig']->render('index.twig');
-});
-
-$app->run();
+echo json_encode ($stocks);
