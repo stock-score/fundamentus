@@ -1,0 +1,7 @@
+php:
+    version: 7.1
+    frontend:
+        name: nginx
+    interpretor:
+        name: fpm
+    composer: true
