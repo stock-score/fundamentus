@@ -1,5 +1,7 @@
 {
   "require" : {
+    "php": ">=7.1",
+		"guzzlehttp/guzzle": "6.3.2",
     "aws/aws-sdk-php": "^3.54"
   },
   "require-dev": {
